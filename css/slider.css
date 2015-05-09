@@ -1,0 +1,21 @@
+#slider{
+
+	width: 70%;
+	height: 400px;
+	overflow: hidden;
+	margin: 10px auto;
+	border-radius: 3px;
+
+}
+
+#slider > img {
+	width: 70%;
+	height: 400px;
+	float: left;
+	display: none;
+	border-radius: 3px;
+}
+
+
+
+
