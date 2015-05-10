@@ -4,19 +4,6 @@ body{
 	background-repeat: no-repeat;
 }
 
-/*h1{
-	color: #000;
-	position: relative;
-	top: 50%;
-	left: 40%;
-	text-align: center;	
-	font-weight: bold;
-	font-size: 70px;
-	padding: 0px;
-	margin-bottom: 1px;
-	margin-top: 1px;
-}*/
-
 .mamaday{
 	position: relative;
 	left: 300px;
@@ -43,20 +30,22 @@ body{
     margin: 1px;
 }
 
-/*p{
+.mamame{
 	position: relative;
-	left: 30%;
-	top: 80%;
-	color:  #000;
-	font-size: 30px;
-	font-weight: bold;
-	text-align: center;
-	box-shadow: ;
+	left: 20px;
+	top: -90px;
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 3px;
 	padding: 0px;
-	margin-bottom: 1px;
-	margin-top: 1px;
+	box-shadow: 1px 1px 5px #FBAEC9;
 }
-*/
+
+.mamame img{
+	width: 300px;
+	height: 200px;
+}
 
 .musicplay{
 	position: relative;
