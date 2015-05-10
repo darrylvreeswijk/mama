@@ -1,0 +1,17 @@
+body{
+	background-color: red;
+}
+
+h1{
+	color: yellow;
+	text-align: center;	
+	font-weight: bold;
+	font-size: 70px;
+	padding: 0px;
+	margin-bottom: 1px;
+}
+
+audio{
+	width: 100%;
+}
+
