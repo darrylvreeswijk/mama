@@ -22,7 +22,7 @@ function startSlider(){
 		sliderNext = sliderNext+1;
 
 
-	}, 1000)
+	}, 7000)
 
 
 }	
