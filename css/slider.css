@@ -1,19 +1,48 @@
 #slider{
 
+	width: 934px;
+	height: 400px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	border-radius: 3px;
+	
+
+}
+
+#slider > img {
+	width: 934px;
+	height: 400px;
+	/*float: center;*/
+	display: none;
+	border-radius: 3px;
+}
+
+@media only screen and (min-width: 400px) {
+	#slider{
+
 	width: 70%;
 	height: 400px;
 	overflow: hidden;
-	margin: 10px auto;
-	border-radius: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	border-radius: 50%;
+	
 
 }
 
 #slider > img {
 	width: 70%;
 	height: 400px;
-	float: left;
+	/*float: center;*/
 	display: none;
-	border-radius: 3px;
+	border-radius: 50%;
+}
+
 }
 
 
