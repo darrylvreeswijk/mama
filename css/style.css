@@ -4,9 +4,9 @@ body{
 	background-repeat: no-repeat;
 }
 
-h1{
+/*h1{
 	color: #000;
-	position: absolute;
+	position: relative;
 	top: 50%;
 	left: 40%;
 	text-align: center;	
@@ -15,28 +15,36 @@ h1{
 	padding: 0px;
 	margin-bottom: 1px;
 	margin-top: 1px;
-}
+}*/
 
 .mamaday{
-	position: absolute;
-	left: 30%;
-	top: 50%;
+	position: relative;
+	left: 300px;
+	top: 250px;
+	height: 200px;
+    width: 700px;
 	-ms-transform: rotate(-20deg); /* IE 9 */
     -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
     transform: rotate(-20deg);
+    padding: 0px;
+    margin:1px;
 }
 
 .lovedar{
-	position: absolute;
-	left: 50%;
-	top: 70%;
+	position: relative;
+	left: 600px;
+	top: 170px;
+	height: 200px;
+    width: 400px;
 	-ms-transform: rotate(-20deg); /* IE 9 */
     -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
     transform: rotate(-20deg);
+    padding: 0px;
+    margin: 1px;
 }
 
-p{
-	position: absolute;
+/*p{
+	position: relative;
 	left: 30%;
 	top: 80%;
 	color:  #000;
@@ -48,11 +56,19 @@ p{
 	margin-bottom: 1px;
 	margin-top: 1px;
 }
+*/
 
+.musicplay{
+	position: relative;
+	top: -50px;
+	width: 100%;
+	padding: 0px;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
 
-audio{
+.musicplay audio{
 	position: absolute;
-	top: 95%;
 	width: 99%;
 	padding: 0px;
 	margin-bottom: 1px;
