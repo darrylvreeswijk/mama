@@ -15,8 +15,8 @@ function startSlider(){
 			sliderNext=1;
 			sliderInt =1;
 		}
-		$("#slider > Img").fadeOut(300);
-		$("#slider > Img#" + sliderNext).fadeIn(300);
+		$("#slider > Img").fadeOut(100);
+		$("#slider > Img#" + sliderNext).fadeIn(100);
 
 		sliderInt = sliderNext;
 		sliderNext = sliderNext+1;
