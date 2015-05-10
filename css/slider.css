@@ -1,20 +1,20 @@
 #slider{
 
-	width: 600px;
-	height: 400px;
+	width: 300px;
+	height: 200px;
 	overflow: hidden;
 	border-radius: 3px;
 	padding: 0px;
 	margin-bottom: 20px;
-	margin-top: 1px;
-	margin-left: auto;
+	margin-top: 350px;
+	margin-left: 70px;
 	margin-right: auto;
-	box-shadow: 10px 10px 5px #FBAEC9;
+	box-shadow: 1px 1px 5px #FBAEC9;
 }
 
 #slider > img {
-	width: 600px;
-	height: 400px;
+	width: 300px;
+	height: 200px;
 	/*float: center;*/
 	display: none;
 	border-radius: 3px;
